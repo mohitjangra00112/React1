@@ -8,6 +8,8 @@ import { Forms2 } from './components/Forms2';
 import { Router } from './components/Router'; 
 import { Api } from './components/Api';
 import Forms3 from './components/Forms3';
+import { Home } from './components/Sub/Home';
+import { Page2 } from './components/Sub/Page2';
 
 
 function App() {
@@ -18,8 +20,9 @@ function App() {
     {/* <Forms /> */}
     {/* <Forms2 /> */}
     {/* <Router /> */}
-    <Forms3 />
-    <Api/>
+    {/* <Forms3 /> */}
+    {/* <Api/> */}
+    <Home />
     </>
   )
 
